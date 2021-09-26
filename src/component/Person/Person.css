@@ -1,0 +1,27 @@
+.person{
+    padding: 20px;
+    border: 5px solid lightgray;
+    background-color: rgb(210, 214, 200);
+    border-radius: 10px;
+}
+.person-img{
+    text-align: center;
+}
+
+.person-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.prop-title{
+    font-weight: bold;
+}
+.cart-btn button{
+    padding: .5em 1em;
+    border:  none;
+    color: rgb(39, 54, 24);
+    background-color: rgb(138, 209, 66);
+    cursor: pointer;
+}

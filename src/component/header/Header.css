@@ -1,0 +1,16 @@
+.header{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: white;
+}
+.title{
+    color: rgb(138, 209, 66);
+    font-weight: bold;
+}
+.budget{
+    color: rgb(138, 209, 66) ;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
