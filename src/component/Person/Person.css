@@ -14,9 +14,13 @@
     border-radius: 50%;
     object-fit: cover;
 }
+.properties p{
+    border-bottom: 1px solid rgb(176, 176, 189);
+}
 
 .prop-title{
     font-weight: bold;
+    margin-right: 30px;
 }
 .cart-btn button{
     padding: .5em 1em;

@@ -13,7 +13,7 @@ const Person = (props) => {
             <div className="person-img">
                 <img src={picture} alt="" />
             </div>
-            <div>
+            <div className="properties">
                 <p><span className="prop-title">name:</span>{name}</p>
                 <p><span className="prop-title">age:</span>{age}</p>
                 <p><span className="prop-title">company:</span>{company}</p>
@@ -21,10 +21,11 @@ const Person = (props) => {
                 <p><span className="prop-title">phone:</span>{phone}</p>
                 <p><span className="prop-title">email:</span>{email}</p>
                 <p><span className="prop-title">Salary:</span>${balance}</p>
-                <div className="cart-btn">
+                
+            </div>
+            <div className="cart-btn">
                     <button onClick={()=>{props.addToCart(props.person)}}> {element} Add to Cart</button>
                 </div>
-            </div>
         </div>
     );
 };
